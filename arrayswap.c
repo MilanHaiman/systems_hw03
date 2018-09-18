@@ -15,7 +15,7 @@ int main() {
 	int * rp = ray;
 	int * rp2 = ray2;
 	for(int i = 0;i < 10;i++) {
-		ray2[9-i]=ray[i];
+		rp2[9-i]=rp[i];
 	}
 	for(int i = 0;i < 10;i++) {
 		printf("Position%d: %d\n", i, ray2[i]);
